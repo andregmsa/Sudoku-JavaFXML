@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="576.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku.FXMLLoginController">
+   <children>
+      <TextField fx:id="txtUser" layoutX="242.0" layoutY="344.0" prefHeight="34.0" prefWidth="171.0" promptText="username" />
+      <PasswordField fx:id="txtPass" layoutX="242.0" layoutY="392.0" prefHeight="34.0" prefWidth="171.0" promptText="password" />
+      <Button fx:id="btnLogin" layoutX="157.0" layoutY="447.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="160.0" text="Login" />
+      <Button fx:id="btnRegistar" layoutX="344.0" layoutY="447.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="160.0" text="Registar" />
+      <Text layoutX="161.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUDOKU" textAlignment="CENTER" wrappingWidth="334.7294921875">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Label fx:id="lError" layoutX="242.0" layoutY="313.0" prefHeight="23.0" prefWidth="171.0" textFill="RED" />
+      <ImageView fitHeight="242.0" fitWidth="247.0" layoutX="205.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sudoku_icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku.FXMLPontuacoesController">
+   <children>
+      <ListView fx:id="listMin" layoutX="224.0" layoutY="81.0" prefHeight="260.0" prefWidth="61.0" />
+      <Text layoutX="146.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tempos gastos na resoluçao">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ListView fx:id="listSeg" layoutX="289.0" layoutY="81.0" prefHeight="260.0" prefWidth="61.0" />
+      <Text layoutX="226.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MInutos" />
+      <Text layoutX="288.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Segundos" />
+      <Button fx:id="voltar" layoutX="232.0" layoutY="351.0" mnemonicParsing="false" text="Menu Principal" />
+   </children>
+</AnchorPane>

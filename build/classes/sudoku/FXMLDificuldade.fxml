@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku.FXMLDificuldadeController">
+   <children>
+      <VBox layoutX="142.0" layoutY="125.0" prefHeight="393.0" prefWidth="368.0">
+         <children>
+            <Button fx:id="btnFacil" mnemonicParsing="false" prefHeight="53.0" prefWidth="367.0" text="Facil">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="70.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="btnMedio" mnemonicParsing="false" prefHeight="53.0" prefWidth="367.0" text="Medio">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="btnDificil" mnemonicParsing="false" prefHeight="53.0" prefWidth="367.0" text="Dificil">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <Text layoutX="176.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Escolha a dificuldade">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
